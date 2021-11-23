@@ -1,0 +1,9 @@
+//HAZARD DETECTION UNIT
+
+module HAZARD_UNIT
+(
+	input[4:0] ID_EX_MR,
+	input[4:0] IF_ID_Rs1,
+	input[4:0] IF_ID_Rs1,
+	input[4:0] ID_EX_Rd
+)
