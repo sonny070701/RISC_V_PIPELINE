@@ -13,17 +13,13 @@ module ID_EX
 	input jalr_in,
 	input ALU_Src_in,
 	input [3:0] ALU_OP_in,
-	
 	input [4:0] Read_Data_1_in,
 	input [4:0] Read_Data_2_in,
 	input [31:0] A_in,
 	input [31:0] B_in,
 	input	[31:0] RD_in,
 	input [31:0] Immediate_in,
-      /*input [4:0]  rt_in,
-	input [31:0] Shifted_Instruction_in,
-	input [4:0]  Shamt_in*/
-	
+		
 	output reg Branch_out,
 	output reg Mem_Read_out,
 	output reg Mem_to_Reg_out,
@@ -40,13 +36,11 @@ module ID_EX
 	output reg ALU_Src_out,
 	output reg [31:0] A_out,
 	output reg [31:0] B_out
-      /*output reg [4:0]  rt_out,
-	output reg [31:0] Shifted_Instruction_out,
-	output reg [4:0]  Shamt_out*/
-);
+);						
 
-always@(negedge clk)
+always@(posedge clk)
 	begin
+
 	ALU_Src_out= ALU_Src_in;
 	Branch_out = Branch_in;
 	Mem_Read_out = Mem_Read_in;
@@ -62,6 +56,7 @@ always@(negedge clk)
 	Read_Data_2_out = Read_Data_2_in;
 	Immediate_out = Immediate_in;
 	ALU_OP_out = ALU_OP_in;
+	
 	end
-
+	
 endmodule

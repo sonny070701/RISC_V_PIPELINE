@@ -15,10 +15,7 @@ module EX_MEM
 	input [31:0] RD_in,
 	input [31:0] ALU_Result_in,
 	input zero_in,
-	
-      /*input [4:0]  rt_in,
-	input [31:0] Shifted_Instruction_in,
-	input [4:0]  Shamt_in*/
+	input [31:0] muxb_in,
 	
 	output reg Branch_out,
 	output reg Mem_Read_out,
@@ -30,10 +27,8 @@ module EX_MEM
 
 	output reg [31:0] RD_out,
 	output reg [31:0] ALU_Result_out,
-	output reg zero_out
-      /*output reg [4:0]  rt_out,
-	output reg [31:0] Shifted_Instruction_out,
-	output reg [4:0]  Shamt_out*/
+	output reg zero_out,
+	output reg [31:0] muxb_out
 );
 
 always@(negedge clk)
@@ -49,6 +44,7 @@ always@(negedge clk)
 		RD_out = RD_in;
 	ALU_Result_out = ALU_Result_in;
 	zero_out = zero_in;
+	muxb_out = muxb_in;
 
 	end
 
