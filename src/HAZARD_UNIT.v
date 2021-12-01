@@ -7,13 +7,16 @@ module HAZARD_UNIT
 	input[4:0] ID_EX_Rd,
 	input[4:0] IF_ID_Rs1,
 	input[4:0] IF_ID_Rs2,
-	input[2:0] Control_Branches,
+	input Branch_in,
+	input jal_in,
+	input jalr_in,
+	input zero_in,
 	
 	output reg stall,
 	output reg flush
 );
 
-always @(ID_EX_MR, IF_ID_Rs1, IF_ID_Rs2, ID_EX_Rd, Control_Branches) 
+always @(ID_EX_MR, IF_ID_Rs1, IF_ID_Rs2, ID_EX_Rd) 
 
 	 begin
 	 
@@ -30,11 +33,11 @@ always @(ID_EX_MR, IF_ID_Rs1, IF_ID_Rs2, ID_EX_Rd, Control_Branches)
             end
 	 end
 			
-always @(posedge clk)
+always @(Branch_in, jal_in, jalr_in, zero_in) //no deja poner clk en neg
 	
 		begin 
 		
-				if(Control_Branches)
+				if((zero_in && Branch_in)||(jal_in)||(jalr_in))
 			
 					flush = 1'b1;				
 				else

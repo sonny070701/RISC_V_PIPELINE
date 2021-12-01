@@ -23,7 +23,10 @@ always@(negedge clk)
 			end
 		else
 		if(IF_flush == 1)
-			instruction_out <= 0;
+		begin
+			instruction_out = 32'h0000000;
+			pc_out = 32'h0000000;
+		end
 	end
 
 endmodule
