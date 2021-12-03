@@ -19,7 +19,7 @@
 #
 # Quartus Prime
 # Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
-# Date created = 21:51:25  November 28, 2021
+# Date created = 14:37:00  December 02, 2021
 #
 # -------------------------------------------------------------------------- #
 #
@@ -41,7 +41,7 @@ set_global_assignment -name FAMILY "MAX 10"
 set_global_assignment -name DEVICE 10M50DAF484C7G
 set_global_assignment -name TOP_LEVEL_ENTITY RISC_V_Single_Cycle
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION 20.1.1
-set_global_assignment -name PROJECT_CREATION_TIME_DATE "21:51:25  NOVEMBER 28, 2021"
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "14:36:59  DECEMBER 02, 2021"
 set_global_assignment -name LAST_QUARTUS_VERSION "20.1.1 Lite Edition"
 set_global_assignment -name VERILOG_FILE ../src/Xor_2_1.v
 set_global_assignment -name VERILOG_FILE ../src/RISC_V_Single_Cycle_TB.v
@@ -60,6 +60,7 @@ set_global_assignment -name VERILOG_FILE ../src/ID_EX.v
 set_global_assignment -name VERILOG_FILE ../src/Hazard_Values.v
 set_global_assignment -name VERILOG_FILE ../src/HAZARD_UNIT.v
 set_global_assignment -name VERILOG_FILE ../src/Forward_UNIT.v
+set_global_assignment -name VERILOG_FILE ../src/FLIP_FLOP.v
 set_global_assignment -name VERILOG_FILE ../src/EX_MEM.v
 set_global_assignment -name VERILOG_FILE ../src/Decoder_Register_File.v
 set_global_assignment -name VERILOG_FILE ../src/Data_Memory.v
