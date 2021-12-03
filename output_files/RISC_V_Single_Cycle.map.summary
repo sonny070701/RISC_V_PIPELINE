@@ -1,12 +1,12 @@
-Analysis & Synthesis Status : Successful - Mon Nov 29 12:53:18 2021
+Analysis & Synthesis Status : Successful - Thu Dec 02 22:55:32 2021
 Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 Revision Name : RISC_V_Single_Cycle
 Top-level Entity Name : RISC_V_Single_Cycle
 Family : MAX 10
-Total logic elements : 15,359
-    Total combinational functions : 6,933
-    Dedicated logic registers : 8,671
-Total registers : 8671
+Total logic elements : 18,124
+    Total combinational functions : 8,889
+    Dedicated logic registers : 9,654
+Total registers : 9654
 Total pins : 34
 Total virtual pins : 0
 Total memory bits : 0
