@@ -10,25 +10,25 @@ z2
 cModel Technology
 dD:/Quartus-lite-20.1.1.720-windows
 vAdder_32_Bits
-Z0 !s110 1637460926
+Z0 !s110 1638507158
 !i10b 1
 !s100 ]]1J@==K`8kPSg5PUDi8W3
 Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
-IO`WZWfFd71>_67mUQIYhA3
+IJT5:_9R8>>C5Qb4=J61[53
 Z2 VDg1SIo80bB@j0V0VzS_@n1
-Z3 dC:/PROJECTS/PIPELINE/proj_modelsim
-Z4 w1637475960
-8C:/PROJECTS/PIPELINE/src/Adder_32_Bits.v
-FC:/PROJECTS/PIPELINE/src/Adder_32_Bits.v
-!i122 0
+Z3 dC:/PROJECTS/PIPELINE_V7/proj_modelsim
+Z4 w1638498720
+8C:/PROJECTS/PIPELINE_V7/src/Adder_32_Bits.v
+FC:/PROJECTS/PIPELINE_V7/src/Adder_32_Bits.v
+!i122 26
 L0 13 16
 Z5 OV;L;2020.1;71
 r1
 !s85 0
 31
-!s108 1637460925.000000
-!s107 C:/PROJECTS/PIPELINE/src/Adder_32_Bits.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/PROJECTS/PIPELINE/src/Adder_32_Bits.v|
+!s108 1638507157.000000
+!s107 C:/PROJECTS/PIPELINE_V7/src/Adder_32_Bits.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/PROJECTS/PIPELINE_V7/src/Adder_32_Bits.v|
 !i113 1
 Z6 o-work work
 Z7 tCvgOpt 0
@@ -36,527 +36,599 @@ n@adder_32_@bits
 vALU
 R0
 !i10b 1
-!s100 5BVgQe@4_hE<`181mSdXD3
+!s100 4JZ[8Yjj>LQJmMHWI:QiO0
 R1
-IknI1Q]2WQ6>jd<<9la0Vz1
+Ib<5Vd[1BQbm?36271_TK=2
 R2
 R3
 R4
-8C:/PROJECTS/PIPELINE/src/ALU.v
-FC:/PROJECTS/PIPELINE/src/ALU.v
-!i122 1
+8C:/PROJECTS/PIPELINE_V7/src/ALU.v
+FC:/PROJECTS/PIPELINE_V7/src/ALU.v
+!i122 27
 L0 17 83
 R5
 r1
 !s85 0
 31
-!s108 1637460926.000000
-!s107 C:/PROJECTS/PIPELINE/src/ALU.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/PROJECTS/PIPELINE/src/ALU.v|
+Z8 !s108 1638507158.000000
+!s107 C:/PROJECTS/PIPELINE_V7/src/ALU.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/PROJECTS/PIPELINE_V7/src/ALU.v|
 !i113 1
 R6
 R7
 n@a@l@u
 vALU_Control
-Z8 !s110 1637460927
+R0
 !i10b 1
 !s100 WlAT8G_DGJ0=bg?Gdn6NT1
 R1
-I:F2<61nzQf7R6>fX8j7R^3
+I5Lhhhj]chen6h]0i<0dOa2
 R2
 R3
 R4
-8C:/PROJECTS/PIPELINE/src/ALU_Control.v
-FC:/PROJECTS/PIPELINE/src/ALU_Control.v
-!i122 2
+8C:/PROJECTS/PIPELINE_V7/src/ALU_Control.v
+FC:/PROJECTS/PIPELINE_V7/src/ALU_Control.v
+!i122 28
 L0 15 94
 R5
 r1
 !s85 0
 31
-Z9 !s108 1637460927.000000
-!s107 C:/PROJECTS/PIPELINE/src/ALU_Control.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/PROJECTS/PIPELINE/src/ALU_Control.v|
+R8
+!s107 C:/PROJECTS/PIPELINE_V7/src/ALU_Control.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/PROJECTS/PIPELINE_V7/src/ALU_Control.v|
 !i113 1
 R6
 R7
 n@a@l@u_@control
 vAnd_2_1
-R8
+Z9 !s110 1638507159
 !i10b 1
 !s100 ACMDjg6AP_KaLkk?TnkE42
 R1
-IhzccA]dR]n@koblfMeIV>0
+I;5nczY?R=T>BWL5>>k3KL1
 R2
 R3
 R4
-8C:/PROJECTS/PIPELINE/src/And_2_1.v
-FC:/PROJECTS/PIPELINE/src/And_2_1.v
-!i122 3
+8C:/PROJECTS/PIPELINE_V7/src/And_2_1.v
+FC:/PROJECTS/PIPELINE_V7/src/And_2_1.v
+!i122 29
 L0 8 14
 R5
 r1
 !s85 0
 31
-R9
-!s107 C:/PROJECTS/PIPELINE/src/And_2_1.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/PROJECTS/PIPELINE/src/And_2_1.v|
+R8
+!s107 C:/PROJECTS/PIPELINE_V7/src/And_2_1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/PROJECTS/PIPELINE_V7/src/And_2_1.v|
 !i113 1
 R6
 R7
 n@and_2_1
 vControl
-R8
+R9
 !i10b 1
-!s100 A=1mfGGi:?2Z?lknM9j8:3
+!s100 i:cmhg>5[oSWzhP4W>4aX0
 R1
-IQbhngiR<bj>QV2`iibD9B0
+I552WXGbU_ok?MhEzIGUz@2
 R2
 R3
 R4
-8C:/PROJECTS/PIPELINE/src/Control.v
-FC:/PROJECTS/PIPELINE/src/Control.v
-!i122 4
+8C:/PROJECTS/PIPELINE_V7/src/Control.v
+FC:/PROJECTS/PIPELINE_V7/src/Control.v
+!i122 30
 L0 14 64
 R5
 r1
 !s85 0
 31
-R9
-!s107 C:/PROJECTS/PIPELINE/src/Control.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/PROJECTS/PIPELINE/src/Control.v|
+Z10 !s108 1638507159.000000
+!s107 C:/PROJECTS/PIPELINE_V7/src/Control.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/PROJECTS/PIPELINE_V7/src/Control.v|
 !i113 1
 R6
 R7
 n@control
 vData_Memory
-Z10 !s110 1637460928
+R9
 !i10b 1
 !s100 TSE[m;e7jhzD4TD2OPLbA3
 R1
-IJJS:f;jCicYVzXzcjCT@L1
+I3A4F_VCFZDdC:Q2>aUE1h0
 R2
 R3
 R4
-8C:/PROJECTS/PIPELINE/src/Data_Memory.v
-FC:/PROJECTS/PIPELINE/src/Data_Memory.v
-!i122 5
+8C:/PROJECTS/PIPELINE_V7/src/Data_Memory.v
+FC:/PROJECTS/PIPELINE_V7/src/Data_Memory.v
+!i122 31
 L0 13 35
 R5
 r1
 !s85 0
 31
-R9
-!s107 C:/PROJECTS/PIPELINE/src/Data_Memory.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/PROJECTS/PIPELINE/src/Data_Memory.v|
+R10
+!s107 C:/PROJECTS/PIPELINE_V7/src/Data_Memory.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/PROJECTS/PIPELINE_V7/src/Data_Memory.v|
 !i113 1
 R6
 R7
 n@data_@memory
 vDecoder_Register_File
-R10
+R9
 !i10b 1
 !s100 McjJ;eT`CL^gKzSaHBkF33
 R1
-I>?nKb>LjdMoYVFa_A]Ec@0
+IGJ:0OJZG>mGQWY74WW9lU0
 R2
 R3
 R4
-8C:/PROJECTS/PIPELINE/src/Decoder_Register_File.v
-FC:/PROJECTS/PIPELINE/src/Decoder_Register_File.v
-!i122 6
+8C:/PROJECTS/PIPELINE_V7/src/Decoder_Register_File.v
+FC:/PROJECTS/PIPELINE_V7/src/Decoder_Register_File.v
+!i122 32
 L0 12 50
 R5
 r1
 !s85 0
 31
-Z11 !s108 1637460928.000000
-!s107 C:/PROJECTS/PIPELINE/src/Decoder_Register_File.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/PROJECTS/PIPELINE/src/Decoder_Register_File.v|
+R10
+!s107 C:/PROJECTS/PIPELINE_V7/src/Decoder_Register_File.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/PROJECTS/PIPELINE_V7/src/Decoder_Register_File.v|
 !i113 1
 R6
 R7
 n@decoder_@register_@file
 vEX_MEM
-R10
+Z11 !s110 1638507160
 !i10b 1
-!s100 Gf98^D:AGi3MA03e=W_3n2
+!s100 6GPc6CPEc]0II>_UoMIBE3
 R1
-Id1;iPb8b3jjgfJWIecm<d3
+IZJ[?E^=5@B?n=JKJXjf_01
 R2
 R3
 R4
-8C:/PROJECTS/PIPELINE/src/EX_MEM.v
-FC:/PROJECTS/PIPELINE/src/EX_MEM.v
-!i122 7
-L0 5 51
+8C:/PROJECTS/PIPELINE_V7/src/EX_MEM.v
+FC:/PROJECTS/PIPELINE_V7/src/EX_MEM.v
+!i122 33
+L0 5 80
 R5
 r1
 !s85 0
 31
-R11
-!s107 C:/PROJECTS/PIPELINE/src/EX_MEM.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/PROJECTS/PIPELINE/src/EX_MEM.v|
+R10
+!s107 C:/PROJECTS/PIPELINE_V7/src/EX_MEM.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/PROJECTS/PIPELINE_V7/src/EX_MEM.v|
 !i113 1
 R6
 R7
 n@e@x_@m@e@m
-vForward_UNIT
-R10
+vFLIP_FLOP
+R11
 !i10b 1
-!s100 :>C_0FSTFeY>JK?o7Kl8<2
+!s100 Zz8mbjAo`]0@FL<H[;T9Z0
 R1
-Izn]zkaCWfB`E8mAAD8<O_0
+I@NB4Wem<[kURGOS`3cElL2
 R2
 R3
 R4
-8C:/PROJECTS/PIPELINE/src/Forward_UNIT.v
-FC:/PROJECTS/PIPELINE/src/Forward_UNIT.v
-!i122 8
-L0 3 45
+8C:/PROJECTS/PIPELINE_V7/src/FLIP_FLOP.v
+FC:/PROJECTS/PIPELINE_V7/src/FLIP_FLOP.v
+!i122 34
+L0 1 20
 R5
 r1
 !s85 0
 31
+Z12 !s108 1638507160.000000
+!s107 C:/PROJECTS/PIPELINE_V7/src/FLIP_FLOP.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/PROJECTS/PIPELINE_V7/src/FLIP_FLOP.v|
+!i113 1
+R6
+R7
+n@f@l@i@p_@f@l@o@p
+vForward_UNIT
 R11
-!s107 C:/PROJECTS/PIPELINE/src/Forward_UNIT.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/PROJECTS/PIPELINE/src/Forward_UNIT.v|
+!i10b 1
+!s100 lFoci>RJEU`bcoM@9N7mS1
+R1
+ITLb5<k@P5Xz_c?=PEgCMB3
+R2
+R3
+R4
+8C:/PROJECTS/PIPELINE_V7/src/Forward_UNIT.v
+FC:/PROJECTS/PIPELINE_V7/src/Forward_UNIT.v
+!i122 35
+L0 3 53
+R5
+r1
+!s85 0
+31
+R12
+!s107 C:/PROJECTS/PIPELINE_V7/src/Forward_UNIT.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/PROJECTS/PIPELINE_V7/src/Forward_UNIT.v|
 !i113 1
 R6
 R7
 n@forward_@u@n@i@t
-vID_EX
-Z12 !s110 1637460929
+vHAZARD_UNIT
+Z13 !s110 1638507161
 !i10b 1
-!s100 :IOXjYjbihO5^KJRK>JZJ1
+!s100 X>[4FnK`Ce09V]j2HfboT3
 R1
-IE6B;32OGnAEaY;X4<4inR2
+I7>[gK^3hXC?0dAjiCU`R>3
 R2
 R3
 R4
-8C:/PROJECTS/PIPELINE/src/ID_EX.v
-FC:/PROJECTS/PIPELINE/src/ID_EX.v
-!i122 9
-L0 4 64
+8C:/PROJECTS/PIPELINE_V7/src/HAZARD_UNIT.v
+FC:/PROJECTS/PIPELINE_V7/src/HAZARD_UNIT.v
+!i122 36
+L0 3 47
 R5
 r1
 !s85 0
 31
-Z13 !s108 1637460929.000000
-!s107 C:/PROJECTS/PIPELINE/src/ID_EX.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/PROJECTS/PIPELINE/src/ID_EX.v|
+R12
+!s107 C:/PROJECTS/PIPELINE_V7/src/HAZARD_UNIT.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/PROJECTS/PIPELINE_V7/src/HAZARD_UNIT.v|
+!i113 1
+R6
+R7
+n@h@a@z@a@r@d_@u@n@i@t
+vHazard_Values
+R13
+!i10b 1
+!s100 V>nM=nkall>]=V0>?fP8V0
+R1
+IDz9`Q97^JEH1ik<gfbeQc1
+R2
+R3
+R4
+8C:/PROJECTS/PIPELINE_V7/src/Hazard_Values.v
+FC:/PROJECTS/PIPELINE_V7/src/Hazard_Values.v
+!i122 37
+L0 1 48
+R5
+r1
+!s85 0
+31
+Z14 !s108 1638507161.000000
+!s107 C:/PROJECTS/PIPELINE_V7/src/Hazard_Values.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/PROJECTS/PIPELINE_V7/src/Hazard_Values.v|
+!i113 1
+R6
+R7
+n@hazard_@values
+vID_EX
+R13
+!i10b 1
+!s100 fFUS8>HMSDZX_@HfG@3aV0
+R1
+I7<iA^3bb_B>34fJ51?0D<1
+R2
+R3
+R4
+8C:/PROJECTS/PIPELINE_V7/src/ID_EX.v
+FC:/PROJECTS/PIPELINE_V7/src/ID_EX.v
+!i122 38
+L0 4 86
+R5
+r1
+!s85 0
+31
+R14
+!s107 C:/PROJECTS/PIPELINE_V7/src/ID_EX.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/PROJECTS/PIPELINE_V7/src/ID_EX.v|
 !i113 1
 R6
 R7
 n@i@d_@e@x
 vIF_ID
-R12
+Z15 !s110 1638507162
 !i10b 1
-!s100 :7MO9bFV0_ZCYQhdXDgkI3
+!s100 TOIn;P^l<Xnn=PbZAn^ba1
 R1
-IQa]km50h=Q^=KZGaVC_l]1
+IEH0=U]8?BLYKR?LfN8KVc2
 R2
 R3
 R4
-8C:/PROJECTS/PIPELINE/src/IF_ID.v
-FC:/PROJECTS/PIPELINE/src/IF_ID.v
-!i122 10
-L0 4 21
+8C:/PROJECTS/PIPELINE_V7/src/IF_ID.v
+FC:/PROJECTS/PIPELINE_V7/src/IF_ID.v
+!i122 39
+L0 4 29
 R5
 r1
 !s85 0
 31
-R13
-!s107 C:/PROJECTS/PIPELINE/src/IF_ID.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/PROJECTS/PIPELINE/src/IF_ID.v|
+R14
+!s107 C:/PROJECTS/PIPELINE_V7/src/IF_ID.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/PROJECTS/PIPELINE_V7/src/IF_ID.v|
 !i113 1
 R6
 R7
 n@i@f_@i@d
 vImmediate_Unit
-R12
+R15
 !i10b 1
 !s100 1]S:bXIE=;DAi6li`^QfJ1
 R1
-I3fXI?ZSWVO[R@1AX?[Ykd0
+IRgaeTYcJe0j01LbP]Xo>i2
 R2
 R3
 R4
-8C:/PROJECTS/PIPELINE/src/Immediate_Unit.v
-FC:/PROJECTS/PIPELINE/src/Immediate_Unit.v
-!i122 11
+8C:/PROJECTS/PIPELINE_V7/src/Immediate_Unit.v
+FC:/PROJECTS/PIPELINE_V7/src/Immediate_Unit.v
+!i122 40
 L0 14 30
 R5
 r1
 !s85 0
 31
-R13
-!s107 C:/PROJECTS/PIPELINE/src/Immediate_Unit.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/PROJECTS/PIPELINE/src/Immediate_Unit.v|
+Z16 !s108 1638507162.000000
+!s107 C:/PROJECTS/PIPELINE_V7/src/Immediate_Unit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/PROJECTS/PIPELINE_V7/src/Immediate_Unit.v|
 !i113 1
 R6
 R7
 n@immediate_@unit
 vMEM_WB
-Z14 !s110 1637460930
+R15
 !i10b 1
-!s100 Z9@@^N5MCG>ViUN<0W`WC0
+!s100 cMEb02VGQajC86C:MCIHQ3
 R1
-IS6S@90`=Eb19B_HG5>>B41
+IKbCUea2VSJEFGS5La<m1<3
 R2
 R3
 R4
-8C:/PROJECTS/PIPELINE/src/MEM_WB.v
-FC:/PROJECTS/PIPELINE/src/MEM_WB.v
-!i122 12
+8C:/PROJECTS/PIPELINE_V7/src/MEM_WB.v
+FC:/PROJECTS/PIPELINE_V7/src/MEM_WB.v
+!i122 41
 L0 3 33
 R5
 r1
 !s85 0
 31
-R13
-!s107 C:/PROJECTS/PIPELINE/src/MEM_WB.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/PROJECTS/PIPELINE/src/MEM_WB.v|
+R16
+!s107 C:/PROJECTS/PIPELINE_V7/src/MEM_WB.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/PROJECTS/PIPELINE_V7/src/MEM_WB.v|
 !i113 1
 R6
 R7
 n@m@e@m_@w@b
 vMultiplexer_2_to_1
-R14
+Z17 !s110 1638507163
 !i10b 1
 !s100 ;:eeJ;AHY7A^Ld9RHQfQ[0
 R1
-I:WBcUCK`QN^<J7U?`1SDi2
+IOZid=:aP6[^[Uc0gh`YLC2
 R2
 R3
 R4
-8C:/PROJECTS/PIPELINE/src/Multiplexer_2_to_1.v
-FC:/PROJECTS/PIPELINE/src/Multiplexer_2_to_1.v
-!i122 13
+8C:/PROJECTS/PIPELINE_V7/src/Multiplexer_2_to_1.v
+FC:/PROJECTS/PIPELINE_V7/src/Multiplexer_2_to_1.v
+!i122 42
 L0 13 21
 R5
 r1
 !s85 0
 31
-Z15 !s108 1637460930.000000
-!s107 C:/PROJECTS/PIPELINE/src/Multiplexer_2_to_1.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/PROJECTS/PIPELINE/src/Multiplexer_2_to_1.v|
+R16
+!s107 C:/PROJECTS/PIPELINE_V7/src/Multiplexer_2_to_1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/PROJECTS/PIPELINE_V7/src/Multiplexer_2_to_1.v|
 !i113 1
 R6
 R7
 n@multiplexer_2_to_1
 vMultiplexer_3_to_1
-R14
+R17
 !i10b 1
 !s100 C027SoKSUMAClfEaJ^]MY0
 R1
-INachN<`[ZFdWz9QmI0Q`L3
+IL5QHcJALHRXKBR@FkEbk>0
 R2
 R3
 R4
-8C:/PROJECTS/PIPELINE/src/Multiplexer_3_to_1.v
-FC:/PROJECTS/PIPELINE/src/Multiplexer_3_to_1.v
-!i122 14
+8C:/PROJECTS/PIPELINE_V7/src/Multiplexer_3_to_1.v
+FC:/PROJECTS/PIPELINE_V7/src/Multiplexer_3_to_1.v
+!i122 43
 L0 11 24
 R5
 r1
 !s85 0
 31
-R15
-!s107 C:/PROJECTS/PIPELINE/src/Multiplexer_3_to_1.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/PROJECTS/PIPELINE/src/Multiplexer_3_to_1.v|
+Z18 !s108 1638507163.000000
+!s107 C:/PROJECTS/PIPELINE_V7/src/Multiplexer_3_to_1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/PROJECTS/PIPELINE_V7/src/Multiplexer_3_to_1.v|
 !i113 1
 R6
 R7
 n@multiplexer_3_to_1
 vMUXRegisterFile
-R14
+R17
 !i10b 1
 !s100 nBWFB0n:b]lZh_XigEU=]1
 R1
-Iz>C`?CJ8oM[ef=<n4TEdL3
+IalE72Pc;U@c^iQk`ILEXz0
 R2
 R3
 R4
-8C:/PROJECTS/PIPELINE/src/MUX_Register_File.v
-FC:/PROJECTS/PIPELINE/src/MUX_Register_File.v
-!i122 15
+8C:/PROJECTS/PIPELINE_V7/src/MUX_Register_File.v
+FC:/PROJECTS/PIPELINE_V7/src/MUX_Register_File.v
+!i122 44
 L0 2 82
 R5
 r1
 !s85 0
 31
-R15
-!s107 C:/PROJECTS/PIPELINE/src/MUX_Register_File.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/PROJECTS/PIPELINE/src/MUX_Register_File.v|
+R18
+!s107 C:/PROJECTS/PIPELINE_V7/src/MUX_Register_File.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/PROJECTS/PIPELINE_V7/src/MUX_Register_File.v|
 !i113 1
 R6
 R7
 n@m@u@x@register@file
 vPC_Register
-Z16 !s110 1637460931
+Z19 !s110 1638507164
 !i10b 1
-!s100 XU?22mlozNdOC_D9MT`kl0
+!s100 ilFggTkIiDn3obg=V8;;a1
 R1
-IUCZ5ZnR?MzSgWW^374oWz0
+I@JLUWof;eSh2<=CQS;@XX1
 R2
 R3
-R4
-8C:/PROJECTS/PIPELINE/src/PC_Register.v
-FC:/PROJECTS/PIPELINE/src/PC_Register.v
-!i122 16
-L0 15 21
+w1638507043
+8C:/PROJECTS/PIPELINE_V7/src/PC_Register.v
+FC:/PROJECTS/PIPELINE_V7/src/PC_Register.v
+!i122 45
+L0 15 22
 R5
 r1
 !s85 0
 31
-R15
-!s107 C:/PROJECTS/PIPELINE/src/PC_Register.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/PROJECTS/PIPELINE/src/PC_Register.v|
+R18
+!s107 C:/PROJECTS/PIPELINE_V7/src/PC_Register.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/PROJECTS/PIPELINE_V7/src/PC_Register.v|
 !i113 1
 R6
 R7
 n@p@c_@register
 vProgram_Memory
-R16
+R19
 !i10b 1
-!s100 6Vc4i^52M_iX2YjR9:j<>2
+!s100 ^AMNLERK6HGVBRZNbD4^@0
 R1
-IWaS`k14eao1C]FZ5[:ngF3
+IW3j9WKYdBJN>2nEYl_d=j0
 R2
 R3
-w1637460452
-8C:/PROJECTS/PIPELINE/src/Program_Memory.v
-FC:/PROJECTS/PIPELINE/src/Program_Memory.v
-!i122 17
+w1638477635
+8C:/PROJECTS/PIPELINE_V7/src/Program_Memory.v
+FC:/PROJECTS/PIPELINE_V7/src/Program_Memory.v
+!i122 46
 L0 15 28
 R5
 r1
 !s85 0
 31
-Z17 !s108 1637460931.000000
-!s107 C:/PROJECTS/PIPELINE/src/Program_Memory.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/PROJECTS/PIPELINE/src/Program_Memory.v|
+Z20 !s108 1638507164.000000
+!s107 C:/PROJECTS/PIPELINE_V7/src/Program_Memory.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/PROJECTS/PIPELINE_V7/src/Program_Memory.v|
 !i113 1
 R6
 R7
 n@program_@memory
 vRegister
-R16
+R19
 !i10b 1
 !s100 XQAZ31h2Jl4UHO`O0IhG03
 R1
-IHnY[7g4GJnEI7>4`PPZZ<0
+I0Bbndn>YW?H5<RR2SPY:L1
 R2
 R3
 R4
-8C:/PROJECTS/PIPELINE/src/Register.v
-FC:/PROJECTS/PIPELINE/src/Register.v
-!i122 18
+8C:/PROJECTS/PIPELINE_V7/src/Register.v
+FC:/PROJECTS/PIPELINE_V7/src/Register.v
+!i122 47
 L0 12 24
 R5
 r1
 !s85 0
 31
-R17
-!s107 C:/PROJECTS/PIPELINE/src/Register.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/PROJECTS/PIPELINE/src/Register.v|
+R20
+!s107 C:/PROJECTS/PIPELINE_V7/src/Register.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/PROJECTS/PIPELINE_V7/src/Register.v|
 !i113 1
 R6
 R7
 n@register
 vRegister_File
-R16
+Z21 !s110 1638507165
 !i10b 1
 !s100 l7KjRn^zhfjH;2Hi<dEY@3
 R1
-I_TS_N<C1RSUgP?I^7Ja_n1
+Ig:kfRQA87?cTneI1XH4C32
 R2
 R3
 R4
-8C:/PROJECTS/PIPELINE/src/Register_File.v
-FC:/PROJECTS/PIPELINE/src/Register_File.v
-!i122 19
+8C:/PROJECTS/PIPELINE_V7/src/Register_File.v
+FC:/PROJECTS/PIPELINE_V7/src/Register_File.v
+!i122 48
 L0 15 517
 R5
 r1
 !s85 0
 31
-R17
-!s107 C:/PROJECTS/PIPELINE/src/Register_File.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/PROJECTS/PIPELINE/src/Register_File.v|
+R20
+!s107 C:/PROJECTS/PIPELINE_V7/src/Register_File.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/PROJECTS/PIPELINE_V7/src/Register_File.v|
 !i113 1
 R6
 R7
 n@register_@file
 vRISC_V_Single_Cycle
-Z18 !s110 1637460932
+R21
 !i10b 1
-!s100 1n[ebOW]VRXWbJF?]WC4I1
+!s100 Wdh0?1aoS?ZmHKIOL]JGM3
 R1
-IE21PkaKkC2C1DLRQRR:Gn1
+I[5X`N=G5j9gPOEP6k5nka2
 R2
 R3
 R4
-8C:/PROJECTS/PIPELINE/src/RISC_V_Single_Cycle.v
-FC:/PROJECTS/PIPELINE/src/RISC_V_Single_Cycle.v
-!i122 20
-L0 20 439
+8C:/PROJECTS/PIPELINE_V7/src/RISC_V_Single_Cycle.v
+FC:/PROJECTS/PIPELINE_V7/src/RISC_V_Single_Cycle.v
+!i122 49
+L0 20 597
 R5
 r1
 !s85 0
 31
-Z19 !s108 1637460932.000000
-!s107 C:/PROJECTS/PIPELINE/src/RISC_V_Single_Cycle.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/PROJECTS/PIPELINE/src/RISC_V_Single_Cycle.v|
+Z22 !s108 1638507165.000000
+!s107 C:/PROJECTS/PIPELINE_V7/src/RISC_V_Single_Cycle.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/PROJECTS/PIPELINE_V7/src/RISC_V_Single_Cycle.v|
 !i113 1
 R6
 R7
 n@r@i@s@c_@v_@single_@cycle
 vRISC_V_Single_Cycle_TB
-R18
+R21
 !i10b 1
 !s100 1^bOZhYVdM<>0g4;c;BaI0
 R1
-IEf4ALD6NdIa1YboZ7OXPO3
+IRM@]ICgBR410]f7>:]EWU2
 R2
 R3
 R4
-8C:/PROJECTS/PIPELINE/src/RISC_V_Single_Cycle_TB.v
-FC:/PROJECTS/PIPELINE/src/RISC_V_Single_Cycle_TB.v
-!i122 21
+8C:/PROJECTS/PIPELINE_V7/src/RISC_V_Single_Cycle_TB.v
+FC:/PROJECTS/PIPELINE_V7/src/RISC_V_Single_Cycle_TB.v
+!i122 50
 L0 15 26
 R5
 r1
 !s85 0
 31
-R19
-!s107 C:/PROJECTS/PIPELINE/src/RISC_V_Single_Cycle_TB.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/PROJECTS/PIPELINE/src/RISC_V_Single_Cycle_TB.v|
+R22
+!s107 C:/PROJECTS/PIPELINE_V7/src/RISC_V_Single_Cycle_TB.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/PROJECTS/PIPELINE_V7/src/RISC_V_Single_Cycle_TB.v|
 !i113 1
 R6
 R7
 n@r@i@s@c_@v_@single_@cycle_@t@b
 vXor_2_1
-R18
+R21
 !i10b 1
 !s100 afAD<jkWQWJUeDLVnNFD`3
 R1
-IdN8Q9?kz1O6XojeccQWTY3
+IJlNO]^]dQeGW02ich`4B:2
 R2
 R3
 R4
-8C:/PROJECTS/PIPELINE/src/Xor_2_1.v
-FC:/PROJECTS/PIPELINE/src/Xor_2_1.v
-!i122 22
+8C:/PROJECTS/PIPELINE_V7/src/Xor_2_1.v
+FC:/PROJECTS/PIPELINE_V7/src/Xor_2_1.v
+!i122 51
 L0 1 14
 R5
 r1
 !s85 0
 31
-R19
-!s107 C:/PROJECTS/PIPELINE/src/Xor_2_1.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/PROJECTS/PIPELINE/src/Xor_2_1.v|
+R22
+!s107 C:/PROJECTS/PIPELINE_V7/src/Xor_2_1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/PROJECTS/PIPELINE_V7/src/Xor_2_1.v|
 !i113 1
 R6
 R7
