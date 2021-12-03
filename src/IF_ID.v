@@ -16,13 +16,13 @@ module IF_ID
 
 always@(negedge clk)
 	begin
-		if(enable == 0)
+		if(enable == 0 & IF_flush == 0)
 			begin
 				instruction_out = instruction_in;
 				pc_out = pc_in;
 			end
 		else
-		if(IF_flush == 1)
+		//if(IF_flush == 1)
 		begin
 			instruction_out = 32'h0000000;
 			pc_out = 32'h0000000;

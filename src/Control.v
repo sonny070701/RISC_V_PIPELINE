@@ -52,7 +52,7 @@ always@(OP_i) begin
 		I_Type_J:			control_values=11'b1_1_001_00_1_111;  // JALR
 		
 		default:
-			control_values= 10'b0_000_00_000;
+			control_values= 11'b0_000_00_0000;
 		endcase
 end	
 

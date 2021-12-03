@@ -20,6 +20,7 @@
 	input [31:0] immediate_in,
 	input EX_flush,
 	input [31:0] pc_in,
+	input [31:0] JAL_C_in,
 	
 	output reg Branch_out,
 	output reg Mem_Read_out,
@@ -35,8 +36,9 @@
 	output reg [31:0] muxb_out,
 	output reg [31:0] B_out,
 	output reg [31:0] immediate_out,
-	output reg [31:0] pc_out
-);
+	output reg [31:0] pc_out,
+	output reg [31:0] JAL_C_out
+	);
 
 always@(negedge clk)
 	begin
@@ -48,7 +50,7 @@ always@(negedge clk)
 			Mem_Write_out = Mem_Write_in;
 			Reg_Write_out = Reg_Write_in;
 			jal_out = jal_in;
-			jalr_out = jal_in;
+			jalr_out = jalr_in;
 			RD_out = RD_in;
 			ALU_Result_out = ALU_Result_in;
 			zero_out = zero_in;
@@ -56,6 +58,7 @@ always@(negedge clk)
 			B_out = B_in;
 			immediate_out = immediate_in;
 			pc_out = pc_in;
+			JAL_C_out=JAL_C_in;
 
 		end
 		else
@@ -72,8 +75,9 @@ always@(negedge clk)
 				zero_out = 0;
 				muxb_out = 32'h0000000;
 				B_out = 32'h0000000;
-				immediate_out = 32'h0000000;
+				immediate_out = immediate_in;
 				pc_out = 32'h0000000;
+				JAL_C_out=32'h0000000;
 		end
 	end
 

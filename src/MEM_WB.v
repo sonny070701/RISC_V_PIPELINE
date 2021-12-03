@@ -10,11 +10,13 @@ module MEM_WB
 	input [31:0] ALU_Result_in,
 	input [31:0] RD_in,
 
+
 	output reg Mem_to_Reg_OUT,
 	output reg Reg_Write_out,
 	output reg [31:0] Read_Data_out,
 	output reg [31:0] ALU_Result_out,
 	output reg [31:0] RD_out
+
 );
 
 

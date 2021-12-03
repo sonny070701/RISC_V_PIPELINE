@@ -1,0 +1,19 @@
+module flis_flos
+(
+	input clk,
+	input IF_flush,
+
+	output reg [31:0] if_flush_out
+);
+
+
+always@(negedge clk)
+	begin
+		
+		if(IF_flush == 1)
+
+			if_flush_out = IF_flush;
+
+	end
+
+endmodule

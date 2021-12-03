@@ -82,7 +82,7 @@ localparam JALR = 4'b1110;
 				ALU_Result_o = ( A_i + B_i );
 				
 			JAL:
-				ALU_Result_o =  A_i;
+				ALU_Result_o =  A_i+32'h00000004;
 			
 			JALR:
 				ALU_Result_o = A_i + B_i;

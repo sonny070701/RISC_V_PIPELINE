@@ -53,7 +53,7 @@ always@(negedge clk)
 			Mem_Write_out = Mem_Write_in;
 			Reg_Write_out = Reg_Write_in;
 			jal_out = jal_in;
-			jalr_out = jal_in;
+			jalr_out = jalr_in;
 			RD_out = RD_in;
 			A_out = A_in;
 			B_out=B_in;
@@ -80,7 +80,7 @@ always@(negedge clk)
 				B_out= 32'h0000000;
 				Read_Data_1_out = 32'h0000000;
 				Read_Data_2_out = 32'h0000000;
-				Immediate_out = 0;
+				Immediate_out = Immediate_in;
 				ALU_OP_out = 4'b0000;
 				pc_out = 32'h0000000;
 		end

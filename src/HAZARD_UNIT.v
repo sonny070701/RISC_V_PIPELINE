@@ -37,9 +37,10 @@ always @(Branch_in, jal_in, jalr_in, zero_in) //no deja poner clk en neg
 	
 		begin 
 		
-				if((zero_in && Branch_in)||(jal_in)||(jalr_in))
-			
-					flush = 1'b1;				
+				if((zero_in && Branch_in)||(jal_in & ~jalr_in)||jalr_in)
+
+					flush = 1'b1;
+				
 				else
 				
 					flush = 1'b0;
